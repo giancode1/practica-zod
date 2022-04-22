@@ -1,4 +1,4 @@
-import {z} from 'zod'
+import { z } from 'zod'
 
 const nameSchema = z.string()
 const numberSchema = z.number()
@@ -11,7 +11,7 @@ const nullSchema = z.null()
 //const name = 100
 //nameSchema.parse(name) //ZodError
 
-const result = nameSchema.parse('Gian') 
+const result = nameSchema.parse('Gian')
 console.log(result)
 
 const UserSchema = z.object({
@@ -48,3 +48,6 @@ const UserCity: UserCityType = {
 }
 const result2 = UserCitySchema.parse(UserCity)
 console.log('UserCitySchema:', result2)
+
+
+console.log('luego del error') //no se ejecuta

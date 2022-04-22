@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx ts-node-dev --respawn src/index.ts"
+    "dev": "npx ts-node-dev --respawn src/index.ts",
+    "dev1": "npx ts-node-dev --respawn src/app1.ts",
+    "dev2": "npx ts-node-dev --respawn src/app2.ts"
   },
   "keywords": [],
   "author": "Giancarlo Culcay",
